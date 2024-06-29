@@ -1,6 +1,7 @@
 import question_d
 
-num = int(input("Please enter a number:"))
+num = 100
 question_d.use_local_variable(num)
-print(f"The value of num is: {num}")
+print(f"The value of num after calling the function is: {num}")
+
 
